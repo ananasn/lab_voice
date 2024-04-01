@@ -1,6 +1,8 @@
 # Linux 
+```bash
 sudo apt install portaudio19-dev
 pip install --upgrade setuptools wheel
+```
 
 # Модели
 Положить модели (распакованный архив zip) рядом с main.py
