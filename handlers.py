@@ -1,10 +1,10 @@
 import random
-import schedule
 import webbrowser
+
+import requests
 import pyautogui
 
 from voice import voice
-import requests
 
 
 def thanks(text):

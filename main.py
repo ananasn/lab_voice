@@ -2,7 +2,6 @@ from recognition import  Ears
 from voice import voice
 from commands import Command
 import time
-import schedule
 
 
 listener = Ears()
@@ -14,4 +13,3 @@ for text in text_gen:
     Command(text)
     time.sleep(0.5)
     listener.stream.start_stream()
-    schedule.run_pending()
